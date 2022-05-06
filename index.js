@@ -77,6 +77,7 @@ client.on('messageCreate', async message => {
         console.error(err);
       });
   }
+
 });
 
 client.on('interactionCreate', async interaction => {
